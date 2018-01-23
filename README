@@ -1,0 +1,12 @@
+Testing maintenance mode
+------------------------
+
+Start the container: `docker-compose up -d`
+Visit localhost:8081
+See what happens when you edit/remove/add back:
+- web/maintenance/custom.html
+- web/maintenance/maintenance.html
+- web/maintenance/maintenance_on
+
+If you alter the nginx config, you need to restart the container,
+but no restart is required to play with the files.
